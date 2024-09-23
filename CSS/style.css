@@ -1,0 +1,206 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+</style>
+
+/* reset rules */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol{
+    list-style: none;
+}
+
+a{
+    color: currentColor;
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+/* layout */
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-65{
+    width: 65%;
+}
+
+.col-35{
+    width: 35%;
+}
+
+.col-100{
+    width: 100%;
+}
+
+.col-2-6{
+    width: calc(100% / 6 * 2);
+    background-color: rgb(253, 181, 193);
+    border: 1px dashed black;
+}
+
+
+.col-1-6{
+    width: calc(100% / 6);
+    background-color: rgb(0, 247, 255);
+    border: 1px dashed white;
+}
+
+
+
+
+
+/* HEADER */
+
+html{
+    font-family: "Poppins", sans-serif;
+}
+
+p{
+    line-height: 1.5;
+}
+
+.main-header{
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
+    color: white;
+    padding: 20px;
+}
+
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  
+}
+
+.main-menu{
+    display: flex;
+    gap: 40px;
+}
+
+.cta{
+    display: inline-block;
+    line-height: 34px;
+    background-color: white;
+    color: black;
+    border-radius: 999px;
+    padding: 0 12px;
+}
+
+.cta.bg-b{
+    background-color: rgb(51, 51, 51);
+    color: white;
+}
+
+.col-100 span .cta{
+    line-height: 40px;
+    margin-right: 20px;
+}
+
+
+/* MAIN */
+.layout-1{
+    padding: 30px; 
+}
+
+.container-hero{
+    min-height: 300px;
+    max-width: 622px;
+    margin: auto;  
+}
+
+.container-hero .cta{
+    margin-top: 20px;
+}
+
+.container-hero h1{
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+
+.layout-2{
+    background-color: white;
+    padding: 30px;  
+}
+
+.main-layout{
+    min-height: 300px;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+}
+
+.col-35 h2{
+    font-size: 35px;
+    text-align: left;
+}
+
+.col-35 p{
+    text-align: left;
+}
+
+.layout-3{
+    background-color: gray;
+    padding: 30px;     
+}
+
+.body-layout{
+    min-height: 500px;
+}
+
+.layout-4{
+    padding: 30px;  
+    background-color: darkgrey;  
+}
+
+/* FOOTER */
+.main-footer{
+    background-color: darkgrey;
+    border-top: 1px solid white;
+}
+
+.bordo{
+    border: 1px dashed black;
+    background-color: palevioletred;
+}
+
+.row-footer{
+    background-color: rgb(182, 249, 226);
+    align-items: center;
+    justify-content: space-between;
+    min-height: 40px;
+}
+
+
+
+/* DEBUG RULES */
+.debug .container{
+    border: 2px dashed black;
+}
+
+.debug .row{
+    border: 2px dashed red;
+    padding: 16px;
+}
+
+.debug .row > *{
+    border: 2px dashed green;
+    padding: 16px;
+}
