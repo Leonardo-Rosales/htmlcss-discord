@@ -140,24 +140,25 @@ p{
     padding: 30px;  
 }
 
-.main-layout{
+.main-layout,
+.body-layout{
     min-height: 300px;
     align-items: center;
     text-align: center;
     flex-direction: row;
 }
 
-.col-35 h2{
+.s-body h2{
     font-size: 35px;
     text-align: left;
 }
 
-.col-35 p{
+.s-body p{
     text-align: left;
 }
 
 .layout-3{
-    background-color: gray;
+    background-color:#f4f5f7;
     padding: 30px;     
 }
 
@@ -167,12 +168,20 @@ p{
 
 .layout-4{
     padding: 30px;  
-    background-color: darkgrey;  
+    background-color: #23272a;  
+}
+
+.flex-s{
+    align-self: flex-start;
+}
+
+.col-100 h2{
+    font-size: 35px;
 }
 
 /* FOOTER */
 .main-footer{
-    background-color: darkgrey;
+    background-color:#23272a;
     border-top: 1px solid white;
 }
 
