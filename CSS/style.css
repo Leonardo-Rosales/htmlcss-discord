@@ -49,15 +49,11 @@ img{
 
 .col-2-6{
     width: calc(100% / 6 * 2);
-    background-color: rgb(253, 181, 193);
-    border: 1px dashed black;
 }
 
 
 .col-1-6{
     width: calc(100% / 6);
-    background-color: rgb(0, 247, 255);
-    border: 1px dashed white;
 }
 
 
@@ -166,10 +162,6 @@ p{
     min-height: 500px;
 }
 
-.layout-4{
-    padding: 30px;  
-    background-color: #23272a;  
-}
 
 .flex-s{
     align-self: flex-start;
@@ -179,26 +171,55 @@ p{
     font-size: 35px;
 }
 
+.cta.main-foot{
+    background-color: #5865f2;
+    color: white;
+    font-size: 16px;
+    
+    
+}
+
+.col-100 h3{
+    font-size: 25px;
+}
+
 /* FOOTER */
+
 .main-footer{
     background-color:#23272a;
-    border-top: 1px solid white;
+    text-align: left;
+    color: white;
+    padding: 30px; 
 }
 
-.bordo{
-    border: 1px dashed black;
-    background-color: palevioletred;
-}
 
 .row-footer{
-    background-color: rgb(182, 249, 226);
     align-items: center;
     justify-content: space-between;
     min-height: 40px;
 }
 
+.lay-foot{
+    align-content: flex-start;
+    align-items: baseline;
+}
 
+.lay-foot h3,h4{
+    color: #5865f2;
+    text-align: left;
+}
 
+.img-ita{
+    text-align: left;
+}
+
+.border-foot{
+    border-bottom: #5865f2 solid 1px;
+}
+
+.main-foot{
+    margin-top: 15px;
+}
 /* DEBUG RULES */
 .debug .container{
     border: 2px dashed black;
